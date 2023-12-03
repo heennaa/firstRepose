@@ -15,7 +15,7 @@ jobs:
           - uses: actions/checkout@v3
 
           - name: "login to Docker"
-          run:docker login --username hanenn --password dckr_pat_CqxKo5SWkCxrlNIvqbKJCfHC_Vc
+           run: docker login --username hanenn --password dckr_pat_CqxKo5SWkCxrlNIvqbKJCfHC_Vc
 
 
 
