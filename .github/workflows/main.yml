@@ -15,7 +15,7 @@ jobs:
           - uses: actions/checkout@v3
 
           - name: "login to Docker"
-            run: docker login --username ${{ secret.UserName }} --password ${{ secret.Token }}
+            run: docker login --username ${{ secrets.UserName }} --password ${{ secrets.Token }}
 
 
 
